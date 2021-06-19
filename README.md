@@ -32,26 +32,106 @@
 
 ![Connection Picture (1)](https://user-images.githubusercontent.com/79529647/122650781-62338880-d152-11eb-9044-0b952a438ab2.jpg)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 👆
+
+### Here is the complete Picture of the Project:
+https://github.com/shubh0811/THIEF-DETECTING-NOTIFIER/blob/master/Project%20Picture.jpg
+
+## Observation:
+#### As any obstacle blocks the IR sensor or someone tries to open the door of the room , a notification comes on the phone that someone has entered the room. 
+ 
+ ### Here is the video of the project connected through the Charger: https://github.com/shubh0811/THIEF-DETECTING-NOTIFIER/blob/master/Testing%20By%20Connecting%20Through%20The%20Charger.mp4 
+ ### Here is the video of the project connected through the Power Supply: https://github.com/shubh0811/THIEF-DETECTING-NOTIFIER/blob/master/Testing%20The%20Project.mp4
+ 
+ 
+ 
+## Explanation:
+#### Power Supply is connected to the ESP8266 to power it than it is connected to the IR sonsor. 
+#### Here is the Code of the Project: https://github.com/shubh0811/THIEF-DETECTING-NOTIFIER/blob/master/Code.txt
+#### ESP8266 connects to the WIFI and the Blynk app due to which it sends the notification on the Blynk app which is in phone.
+#### According to the code as the IR sensor senses the obstacle it passes 1 through the output pin to the ESP8266 board. Now as the code says if their is 1 passed through the sensor than sends the notification on the Blynk app.             
+#### It could be dirrectly connected to the charger or the power supply about which i have already disscused. 
+### The image of the Project when attached to the wall: https://github.com/shubh0811/THIEF-DETECTING-NOTIFIER/tree/master/Project%20On%20The%20Wall
+### The image of the Project when put in the box: https://github.com/shubh0811/THIEF-DETECTING-NOTIFIER/tree/master/Project%20In%20The%20Box
+
+
+
+
+### Here is the video of the project connected through the Charger: https://github.com/shubh0811/THIEF-DETECTING-NOTIFIER/blob/master/Testing%20By%20Connecting%20Through%20The%20Charger.mp4 
+ ### Here is the video of the project connected through the Power Supply: https://github.com/shubh0811/THIEF-DETECTING-NOTIFIER/blob/master/Testing%20The%20Project.mp4
+ 
+ 
+ 
+## Board used:
+#### ESP8266
+#### IR sensor
+
+## COMPONENTS USED for the Power Supply:
+#### 9V Battery 
+#### Zero PCB 
+#### IC 7805 
+#### Switch
+#### USB_B 
+#### Jumper Wires
+
+
+
+Took help from youtube videos!                               
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+

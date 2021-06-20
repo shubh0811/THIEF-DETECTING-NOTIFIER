@@ -16,7 +16,7 @@
  👇                                                                                     
  ![Power Supply (3)](https://user-images.githubusercontent.com/79529647/122644262-ef1a1a00-d131-11eb-8c3c-31da8fc54f40.jpg)
 
-#### Now let's about the power supply which is made for the project. With the use of a 9V Battery, IC7805 and a switch to control the flow of voltage. As said before 7805 is used so that only +5V is supplied a head , and battery for the supply.
+#### Now let's about the power supply which is made for the project. With the use of a 9V Battery, IC 7805 and a switch to control the flow of voltage. As said before 7805 is used so that only +5V is supplied a head , and battery for the supply.
 ### Here is the schematic of the supply.
 
 ![Schematic Of The Power Supply](https://user-images.githubusercontent.com/79529647/122650390-36170800-d150-11eb-9f0c-8ce8609476d2.png)
@@ -50,7 +50,7 @@ https://github.com/shubh0811/THIEF-DETECTING-NOTIFIER/blob/master/Project%20Pict
 #### Here is the Code of the Project: https://github.com/shubh0811/THIEF-DETECTING-NOTIFIER/blob/master/Code.txt
 #### ESP8266 connects to the WIFI(just by writing the name and the pass of the WIFI in the code) and the Blynk app(through the Auth provided by the Blynk app) due to which it sends the notification on the Blynk app which is in phone.
 #### According to the code as the IR sensor senses the obstacle it passes 1 through the output pin to the ESP8266 board. Now as the code says if their is 1 passed through the sensor than send the notification on the Blynk app.             
-#### ESP8266 board could be dirrectly connected to the charger or the power supply about which i have already disscused. 
+#### ESP8266 board could be directly connected to the charger or the power supply about which i have already discussed. 
 ### The image of the Project when attached on the wall: https://github.com/shubh0811/THIEF-DETECTING-NOTIFIER/tree/master/Project%20On%20The%20Wall
 ### The image of the Project when put in the box: https://github.com/shubh0811/THIEF-DETECTING-NOTIFIER/tree/master/Project%20In%20The%20Box
 

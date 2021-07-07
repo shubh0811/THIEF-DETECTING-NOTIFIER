@@ -55,6 +55,10 @@ https://github.com/shubh0811/THIEF-DETECTING-NOTIFIER/blob/master/Project%20Pict
 ### The image of the Project when put in the box: https://github.com/shubh0811/THIEF-DETECTING-NOTIFIER/tree/master/Project%20In%20The%20Box
 
 
+## LAST OPTION 
+#### Let's talk about few conditions, The IC of the power supply has failed, their is not electricity at my home to power the ESP board, so in that case this last option will work out. Video link :https://github.com/shubh0811/THIEF-DETECTING-NOTIFIER/blob/master/LAST%20OPTION/LAST%20OPTION.mp4
+#### I have just connected the buzzer with the battery so that if the door of the room opens the buzzer can do its work.
+
 
 
 ### Here is the video of the project connected through the Charger: https://github.com/shubh0811/THIEF-DETECTING-NOTIFIER/blob/master/Testing%20By%20Connecting%20Through%20The%20Charger.mp4 

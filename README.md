@@ -37,15 +37,13 @@
 ### IC 7805
  #### IC 7805 Voltage Regulator, a member of 78xx series of fixed linear voltage regulators used to maintain such fluctuations, is a popular voltage regulator integrated circuit (IC). The xx in 78xx indicates the output voltage it provides. 7805 IC provides +5 volts regulated power supply.
 ### COMPONENTS REQUIRED FOR POWER SUPPLY:
+ # 👇                                                                                     
 
 ![image](https://user-images.githubusercontent.com/79529647/128630536-8c7e24dd-b95b-4ccd-bb24-351544ed80aa.png)
 #### Ic 7805 ,9V battery with connector ,Switch ,Zero PCB, USB_B/Micro USB , Jumper wires. These are the few components required to make power supply. 
+# 👆                                       
 
 ### CONNECTIVITY OF THE POWER SUPPLY:
- 
- 
-
- 
  .                                                                                  
  
  # 👇                                                                                     
@@ -58,17 +56,74 @@
 
 ####  I gave connected 9V battery to first pin of the IC so that we could get +5V from the third pin. I have connected a switch in it so that the voltage is only forwarded when its required. The USB which gets connected to the ESP board is of B type/Micro USB. 
 # 👆                                       
-
+### OTHER WAYS TO POWER ESP8266 BOARD:
+#### 1. Through Charger
+#### 2. Through Power Bank
 
 ### Here is the complete Picture of the Project:
 https://github.com/shubh0811/THIEF-DETECTING-NOTIFIER/blob/master/Project%20Picture.jpg
 
+
+
+
+
+
+
+
 ## VOICE MODULE FOR THE PROJECT
 ![image](https://user-images.githubusercontent.com/79529647/128633713-3336e8f7-0013-401b-89dc-32a710dacaf3.png)
 #### The IC 1820 records the voice and plays it whenever asked. The module is placed behind the door so as the door opens the module starts working and play’s the sound which is already recorded in it. Due to this the thief will run away and the family members will be alert. 
+
+### COMPONENTS REQUIRED FOR VOICE MODULE
+ # 👇                                                                                     
+
+![b](https://user-images.githubusercontent.com/79529647/128634622-6122ce91-fe80-4d23-85a1-e11058de04ad.jpg)    
+#### Components Required are- ISD 1820 ,Speaker, 4V Battery, Mic, Switches, few Resistors, LED's, Ceramic Capacitors, Capacitors.
+# 👆                                       
+
+### Schematic OF VOICE MODULE
+ # 👇                                                                                     
+
+![image](https://user-images.githubusercontent.com/79529647/128634914-b4c760b0-1e7d-423e-a0f2-e0ccaef6d2d4.png)
+# 👆                                       
+
 ### WHY VOICE MODULE IS NECESSARY
 #### 1. If some how the ESP board doesn’t work.
 #### 2. The thief will runaway after hearing such loud noise.
+
+
+
+
+## Steps followed in BLYNK App
+ ## 👇                                                                                     
+![c (1)](https://user-images.githubusercontent.com/79529647/128635884-6583832b-df0a-42a5-b366-df44fa7d735e.jpg)
+#### Just after signing in to Blynk this interface is faced. Name the project than choose the board which is getting used. 
+## 👆     
+
+ ## 👇           
+![d (1)](https://user-images.githubusercontent.com/79529647/128636044-d734a37b-92d0-4cb4-8353-bbbde5a828b4.jpg)
+#### Here we will get the auth which have to uploaded in the code. Email it or copy it. 
+## 👆     
+ ## 👇           
+![e (1)](https://user-images.githubusercontent.com/79529647/128636116-fa98960e-e008-402d-b813-13f5f116160c.jpg)
+#### We will choose the notification option just because we want to receive a notification from the ESP board.
+## 👆     
+
+ ## 👇           
+![f](https://user-images.githubusercontent.com/79529647/128636189-7335f6c8-d7de-47ac-bc2f-10b3a5cb4c14.jpg)
+#### Now the Blynk app is ready to work.
+## 👆     
+
+
+
+
+## CONNECTING TO WIFI
+![g](https://user-images.githubusercontent.com/79529647/128636317-0069ba95-d21f-4adb-ad9f-1882a47cc40b.jpg)
+#### When ever our ESP board is not connected to any Wifi than we will find this option Autoconnect in the setting(Wifi).
+![h](https://user-images.githubusercontent.com/79529647/128637089-76f0b05d-fd15-49a6-9885-9d2da09a0db7.jpg)
+#### So by just clicking to that(Autoconnect) we will get this interface. Write the credentials of Wifi and the ESP8266 will be connected to the wifi.
+
+
 
 
 
@@ -91,9 +146,6 @@ https://github.com/shubh0811/THIEF-DETECTING-NOTIFIER/blob/master/Project%20Pict
 ### The image of the Project when put in the box: https://github.com/shubh0811/THIEF-DETECTING-NOTIFIER/tree/master/Project%20In%20The%20Box
 
 
-## LAST OPTION 
-#### Let's talk about few conditions, The IC of the power supply has failed, their is not electricity at my home to power the ESP board, so in that case this last option will work out. Video link :https://github.com/shubh0811/THIEF-DETECTING-NOTIFIER/blob/master/LAST%20OPTION/LAST%20OPTION.mp4
-#### I have just connected the buzzer with the battery so that if the door of the room opens the buzzer can do its work.
 
 
 

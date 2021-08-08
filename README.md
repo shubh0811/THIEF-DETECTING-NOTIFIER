@@ -54,7 +54,7 @@
 
 ![Schematic Of The Power Supply](https://user-images.githubusercontent.com/79529647/122650390-36170800-d150-11eb-9f0c-8ce8609476d2.png)
 
-####  I gave connected 9V battery to first pin of the IC so that we could get +5V from the third pin. I have connected a switch in it so that the voltage is only forwarded when its required. The USB which gets connected to the ESP board is of B type/Micro USB. 
+####  I have connected 9V battery to first pin of the IC so that we could get +5V from the third pin. I have connected a switch in it so that the voltage is only forwarded when its required. The USB which gets connected to the ESP board is of B type/Micro USB. 
 # 👆                                       
 ### OTHER WAYS TO POWER ESP8266 BOARD:
 #### 1. Through Charger

@@ -154,17 +154,7 @@ https://github.com/shubh0811/THIEF-DETECTING-NOTIFIER/blob/master/Project%20Pict
  
  
  
-## Board used:
-#### ESP8266
-#### IR sensor
 
-## COMPONENTS USED for the Power Supply:
-#### 9V Battery 
-#### Zero PCB 
-#### IC 7805 
-#### Switch
-#### USB_B 
-#### Jumper Wires
 
 
 

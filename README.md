@@ -63,6 +63,16 @@
 ### Here is the complete Picture of the Project:
 https://github.com/shubh0811/THIEF-DETECTING-NOTIFIER/blob/master/Project%20Picture.jpg
 
+## VOICE MODULE FOR THE PROJECT
+![image](https://user-images.githubusercontent.com/79529647/128633713-3336e8f7-0013-401b-89dc-32a710dacaf3.png)
+#### The IC 1820 records the voice and plays it whenever asked. The module is placed behind the door so as the door opens the module starts working and play’s the sound which is already recorded in it. Due to this the thief will run away and the family members will be alert. 
+### WHY VOICE MODULE IS NECESSARY
+#### 1. If some how the ESP board doesn’t work.
+#### 2. The thief will runaway after hearing such loud noise.
+
+
+
+
 ## Observation:
 #### As any obstacle blocks the IR sensor or someone tries to open the door of the room , a notification directly comes on the phone that someone has entered the room. 
  

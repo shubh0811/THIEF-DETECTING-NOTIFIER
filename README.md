@@ -139,8 +139,8 @@ https://github.com/shubh0811/THIEF-DETECTING-NOTIFIER/blob/master/Project%20Pict
 ## Explanation:
 #### Power Supply is connected to the ESP8266 to power it than it is connected to the IR sensor. 
 #### Here is the Code of the Project: https://github.com/shubh0811/THIEF-DETECTING-NOTIFIER/blob/master/Code.txt
-#### ESP8266 connects to the WIFI(just by writing the name and the pass of the WIFI in the code) and the Blynk app(through the Auth provided by the Blynk app) due to which it sends the notification on the Blynk app which is in phone.
-#### According to the code as the IR sensor senses the obstacle it passes 1 through the output pin to the ESP8266 board. Now as the code says if their is 1 passed through the sensor than send the notification on the Blynk app.             
+#### ESP8266 connects to the WIFI(through phone) and the Blynk app(through the Auth provided by the Blynk app) due to which it sends the notification on the Blynk app which is in phone.
+#### According to the code as the IR sensor senses the obstacle and it passes 1(voltage) through the output pin to the ESP8266 board. Now as the code says if their is 1 passed through the sensor than the ESP board will send the notification on the Blynk app which is in my phone.             
 #### ESP8266 board could be directly connected to the charger or the power supply about which i have already discussed. 
 ### The image of the Project when attached on the wall: https://github.com/shubh0811/THIEF-DETECTING-NOTIFIER/tree/master/Project%20On%20The%20Wall
 ### The image of the Project when put in the box: https://github.com/shubh0811/THIEF-DETECTING-NOTIFIER/tree/master/Project%20In%20The%20Box

@@ -1,10 +1,12 @@
-#define BLYNK_PRINT Serial
+ #define BLYNK_PRINT Serial
 #include <ESP8266WiFi.h>
+#include <DNSServer.h>
+#include <ESP8266WebServer.h>
+#include<WiFiManager.h>
 #include <BlynkSimpleEsp8266.h>
 BlynkTimer timer;
-char auth[] = " WqIgwa13mTyYf2w6Uzn2hilbLmg2Nk-U"; //Auth code sent via Email
-char ssid[] = "Tenda_"; //Wifi name
-char pass[] = "22101996";  //Wifi Password
+char auth[] = "lJPKeasLaUJM4oAAH5TeqBgOq0JkubeF";
+//char blynk_token[] = "";
 int flag=0;
 void notifyOnThings()
 {
@@ -19,15 +21,23 @@ void notifyOnThings()
     flag=0;
   }
 }
-void setup()
-{
-Serial.begin(9600);
-Blynk.begin(auth, ssid, pass); 
+
+
+void setup() {
+  Serial.begin(115200);
+  WiFiManager wifiManager;
+
+  wifiManager.autoConnect("AutoConnectAP");
+  
+  
+
+ Blynk.config(auth);
 pinMode(D1,INPUT_PULLUP);
 timer.setInterval(1000L,notifyOnThings); 
 }
-void loop()
-{
+
+void loop() {
   Blynk.run();
   timer.run();
+
 }
